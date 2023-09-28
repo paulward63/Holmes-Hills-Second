@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: HolmesHills;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HolmesHills;
+  src: url(Holmes&HillsBold-Bold.otf);
+  src: url(Holmes&HillsLight-Light.otf);
+  src: url(Holmes&HillsMedium-Medium.otf);
+  src: url(Holmes&HillsRegular-Regular.otf);
+}
+
+body {
+  background-color: #faf067;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header-config {
+  border: solid 2px black;
+  background-image: url("Extended-Pattern/HHExtendedPatternColourBridgeCoated.jpg");
+  border-radius: 10px;
+  margin: 10px 8px;
+  padding: 10px 8px;
+}
+
+.outer-container {
+  border: 3px dashed #000;
+  width: 90vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative;
+}
+
+.box {
+  width: 45%;
+  height: 150px;
+  color: black;
+  padding: 1rem;
+}
+
+.absolute {
+  background-color: #f3f3f3;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.comments {
+  background-color: #f3f3f3;
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
